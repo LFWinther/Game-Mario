@@ -1,0 +1,22 @@
+.botton-container{
+    display: none;
+}
+
+@media screen and (max-width: 428px) {
+
+    .botton-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .touchscreen {
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
+        border: 5px solid #c1c1c1;
+    }
+    
+    .text-button {
+        padding: 10em 0 1em 0;
+    }
+}

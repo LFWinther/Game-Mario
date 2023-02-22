@@ -91,3 +91,11 @@ body {
         right: 100%;
     }
 }
+
+@media screen and (max-width: 428px) {
+    .jump {
+        animation: jump 800ms ease-out;
+        
+    }
+    
+}
