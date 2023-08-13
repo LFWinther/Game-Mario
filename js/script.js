@@ -9,8 +9,8 @@ const jump = () => {
     mario.classList.add('jump');
     setTimeout(() => {
         mario.classList.remove('jump');
-        touchscreen.removeList.add('jum');
-    }, 500);
+        touchscreen.removeList.add('jump');
+    }, 1000);
 }
 
 const press = () => {
@@ -43,7 +43,7 @@ const startTimer = () => {
     this.loop = setInterval(() => {
         const currentTimer = +timer.innerHTML;
         timer.innerHTML = currentTimer + 1
-    }, 1000)
+    }, 2000)
 }
 
 window.onload = () => {
@@ -61,7 +61,7 @@ const checkEndGame = () => {
                 icon: "../images/game-over.png",
                 buttons: true,
                 // dangerMode: true,
-              })
+              })    
               .then((willDelete) => {
                 if (willDelete) {
                     window.location = '../pages/game.html';
@@ -69,7 +69,7 @@ const checkEndGame = () => {
                     window.location = '../index.html';
                 }
               });
-        }, 500)
+        }, 200)
     }
 }
 

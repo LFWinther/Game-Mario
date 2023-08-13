@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 912px) {
 
     .botton-container {
         display: flex;
@@ -13,10 +13,10 @@
         border-radius: 50%;
         width: 5em;
         height: 5em;
-        border: 5px solid #c1c1c1;
+        border: 5px transparent #c1c1c1;
     }
     
     .text-button {
-        padding: 10em 0 1em 0;
+        padding: 3em 0 1em 0;
     }
 }
